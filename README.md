@@ -11,4 +11,4 @@ CSS: Provides styling for the extension’s popup, ensuring it is responsive and
 JavaScript: Handles the logic, including interacting with the DOM, making API calls, and updating the extension's interface.
 Chrome Extensions API: Utilized to build the extension, including background scripts and popup functionality.
 Third-Party API: Integrated with an external API to provide real-time data for the extension.
-OUTPUT OF TASK:
+OUTPUT OF TASK:(https://github.com/user-attachments/assets/00eb5934-e19e-44b7-a0a5-3bfc0291bd5f)
