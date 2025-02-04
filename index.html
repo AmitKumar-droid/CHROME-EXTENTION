@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Article Fetcher</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1><center><b>Article Fetcher</b></center></h1>
+      <p><center>An extension to pull articles based on tags from various platforms.</center></p>
+    </header>
+
+    <main class="container">
+      <section class="form-section">
+        <form id="form-data">
+          <fieldset>
+            <legend>Select a Tag</legend>
+            <label for="tags">Choose a tag to get articles:</label><br><br>
+            <select name="tags" id="tags" required>
+              <option disabled selected value> -- select an option -- </option>
+              <option value="python">Python</option>
+              <option value="javascript">JavaScript</option>
+              <option value="tutorial">Tutorial</option>
+              <option value="productivity">Productivity</option>
+              <option value="discuss">Discuss</option>
+              <option value="beginners">Beginners</option>
+              <option value="archlinux">Archlinux</option>
+              <option value="webdev">Webdev</option>
+              <option value="android">Android</option>
+              <option value="react">React</option>
+            </select><br><br>
+
+            <button type="submit" class="search-btn">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+
+      <section class="result">
+        <!-- The results will be displayed here -->
+      </section>
+    </main>
+
+    <footer>
+      <p><center>Developed with ❤️ by YourName</center></p>
+    </footer>
+  </body>
+</html>
